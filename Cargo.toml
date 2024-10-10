@@ -4,5 +4,6 @@ resolver = "2"
 members = [
 	"adder",
 	"add_one",
+	"add_two",
 ]
 

@@ -16,4 +16,10 @@ mod tests {
         let result = add(2, 2);
         assert_eq!(result, 4);
     }
+
+    #[test]
+    fn add_one_test() {
+        let result = add_one(2);
+        assert_eq!(3, result);
+    }
 }
